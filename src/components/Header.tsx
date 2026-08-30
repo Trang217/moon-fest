@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 
 export default function Header() {
   return (
-    <header className="px-6 py-4 bg-amber-200">
+    <header className="px-8 py-6 bg-amber-200">
       <nav className=" flex flex-row items-center justify-between ">
         <Logo />
         <Navigation />
