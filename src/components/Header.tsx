@@ -1,3 +1,15 @@
+import HeaderAction from "./HeaderAction";
+import Logo from "./Logo";
+import Navigation from "./Navigation";
+
 export default function Header() {
-  return <div>Header</div>;
+  return (
+    <header className="px-6 py-4 bg-[#F4E6B8]">
+      <nav className=" flex flex-row items-center justify-between ">
+        <Logo />
+        <Navigation />
+        <HeaderAction />
+      </nav>
+    </header>
+  );
 }
