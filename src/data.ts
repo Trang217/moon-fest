@@ -1,8 +1,8 @@
-import setDecor from "../images/set-decor.png";
-import starWithoutBorder from "../images/star-without-border.png";
-import twoStars from "../images/two-stars.png";
-import setThreeLines from "../images/set-three-lines.png";
-import deskCover from "../images/desk-cover.png";
+import setDecor from "./images/set-decor.png";
+import starWithoutBorder from "./images/star-without-border.png";
+import twoStars from "./images/two-stars.png";
+import setThreeLines from "./images/set-three-lines.png";
+import deskCover from "./images/desk-cover.png";
 
 export interface Product {
   id: number;
