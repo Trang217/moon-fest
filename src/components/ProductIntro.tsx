@@ -1,3 +1,4 @@
+import Set_Decor from "../images/set-decor.png";
 function ProductIntro() {
   return (
     <section className="px-8 py-16">
@@ -29,7 +30,7 @@ function ProductIntro() {
           </button>
         </div>
         <div className="">
-          <img src="/src/images/set-decor.png" alt="Set Decor" />
+          <img src={Set_Decor} alt="Set Decor" />
         </div>
       </div>
     </section>

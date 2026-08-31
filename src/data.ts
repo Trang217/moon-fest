@@ -1,3 +1,9 @@
+import Set_Decor from "../images/set-decor.png";
+import Star_Without_Border from "../images/star-without-border.png";
+import Two_Stars from "../images/two-stars.png";
+import Set_Three_Lines from "../images/set-three-lines.png";
+import Desk_Cover from "../images/desk-cover.png";
+
 export interface Product {
   id: number;
   name: string;
@@ -12,7 +18,7 @@ export const products: Product[] = [
     price: 5,
     description:
       "Đèn lồng ông sao size lớn, thích hợp trang trí trong dịp Tết Trung Thu.",
-    imageUrl: "/src/images/star-without-border.png",
+    imageUrl: Star_Without_Border,
   },
   {
     id: 2,
@@ -20,7 +26,7 @@ export const products: Product[] = [
     price: 3,
     description:
       "Đèn lồng ông sao size nhỏ, thích hợp trang trí trong dịp Tết Trung Thu.",
-    imageUrl: "/src/images/two-stars.png",
+    imageUrl: Two_Stars,
   },
   {
     id: 3,
@@ -28,7 +34,7 @@ export const products: Product[] = [
     price: 5,
     description:
       "Dây treo trang trí, thích hợp trang trí trong dịp Tết Trung Thu.",
-    imageUrl: "/src/images/set-three-lines.png",
+    imageUrl: Set_Three_Lines,
   },
   {
     id: 4,
@@ -36,7 +42,7 @@ export const products: Product[] = [
     price: 5,
     description:
       "Khăn trải bàn hoạ tiết Công Phượng, thích hợp trang trí trong dịp Tết Trung Thu.",
-    imageUrl: "/src/images/desk-cover.png",
+    imageUrl: Desk_Cover,
   },
   {
     id: 5,
@@ -44,6 +50,6 @@ export const products: Product[] = [
     price: 15,
     description:
       "Set trang trí Trung Thu, thích hợp trang trí trong dịp Tết Trung Thu.",
-    imageUrl: "/src/images/set-decor.png",
+    imageUrl: Set_Decor,
   },
 ];
