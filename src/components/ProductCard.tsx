@@ -3,6 +3,7 @@ import type { Product } from "../data";
 interface ProductCardProps {
   product: Product;
 }
+
 function ProductCard({ product }: ProductCardProps) {
   return (
     <div
