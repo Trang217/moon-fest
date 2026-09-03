@@ -6,12 +6,12 @@ import { products } from "../data";
 
 export default function HomePage() {
   return (
-    <div>
+    <>
       <Layout>
         <Hero />
         <ProductIntro />
         <ProductList products={products} />
       </Layout>
-    </div>
+    </>
   );
 }

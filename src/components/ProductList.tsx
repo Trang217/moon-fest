@@ -10,7 +10,7 @@ function ProductList({ products }: ProductListProps) {
       <h2 className="text-2xl font-bold mb-14 text-center">
         Nhà ai cũng có một mùa trăng
       </h2>
-      <div className="flex gap-4 justify-center">
+      <div className="flex flex-col md:flex-row gap-4 justify-center">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

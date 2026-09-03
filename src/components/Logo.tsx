@@ -1,3 +1,4 @@
+import LogoImage from "../images/mobile-logo.png";
 export default function Logo() {
-  return <h1 className="text-red-800 text-4xl font-bold">MoonFest</h1>;
+  return <img src={LogoImage} alt="MoonFest Logo" className="h-16 w-16" />;
 }
