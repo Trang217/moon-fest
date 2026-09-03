@@ -4,7 +4,7 @@ function ProductIntro() {
   return (
     <section className="px-6 py-8 md:px-8 md:py-16">
       <div className=" mx-auto gap-8 md:grid md:grid-cols-2 md:gap-16">
-        <div className="text-center py-4 md:py-8 flex flex-col gap-4 justify-center items-start md:text-left">
+        <div className="text-center py-4 md:py-8 flex flex-col gap-4 justify-center md:items-start md:text-left">
           <h2 className="text-xl md:text-3xl font-bold text-slate-700">
             Ban đang tìm gì cho không gian Trung Thu của mình?
           </h2>
@@ -19,7 +19,7 @@ function ProductIntro() {
             Trong set decor này có gì?
           </h3>
 
-          <ul className=" list-inside mx-auto md:ml-0 mt-2 md:mt-4 bg-slate-100 px-5 py-4 md:px-10 md:py-8 text-slate-700 text-xl md:text-2xl border-2 border-slate-400 rounded-sm p-2 md:p-4 ">
+          <ul className=" list-inside mt-2 md:mt-4 bg-slate-100 px-5 py-4 md:px-10 md:py-8 text-slate-700 text-xl md:text-2xl border-2 border-slate-400 rounded-sm p-2 md:p-4 ">
             <li className="text-lg md:text-2xl">Đèn lồng Ông Sao lớn</li>
             <li className="text-lg md:text-2xl">Đèn lồng Ông Sao nhỏ</li>
             <li className="text-lg md:text-2xl">Dây treo trang trí</li>
